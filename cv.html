@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<title>CV</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<script>
+  function openRightMenu() {
+    document.getElementById("rightMenu").style.display = "block";
+  }
+  
+  function closeRightMenu() {
+    document.getElementById("rightMenu").style.display = "none";
+  }
+</script>
+<body>
+ 
+  <div class="header">
+    <a href="#default" class="logo">Teesta Koch</a>
+    <div class="header-right w3-right">
+      <a href="#education">EDUCATION</a>
+      <a href="#skills">SKILLS</a>
+      <a href="#projects">PROJECTS</a>
+      <a href="#contact">CONTACTS</a>
+    </div>
+
+    <button class="w3-button w3-xlarge w3-right menu" onclick="openRightMenu()">&#9776;</button>
+
+    <div class="w3-sidebar w3-bar-block w3-card  w3-blue w3-animate-right"
+     style="display:none; right:0; height:30%;" id="rightMenu">
+      <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+      <a href="#education" class="w3-bar-item w3-button">EDUCATION</a>
+      <a href="#skills" class="w3-bar-item w3-button">SKILLS</a>
+      <a href="#projects" class="w3-bar-item w3-button">PROJECTS</a>
+      <a href="#contact" class="w3-bar-item w3-button">CONTACTS</a>
+    </div>
+    
+  </div>
+
+  <div class="w3-container profile w3-center w3-margin-top" id="contact">
+  <div class="w3-card w3-padding-16" style="width: 60%;"> 
+      <img src="PROFILE.jpg" class="w3-circle" alt="profile" style="width: 200px;">
+
+      <div>
+        <h4>Teesta Koch</h4>
+        <p>STUDENT & DEVELOPER</p>
+        <br>
+        <h4>Phone:</h4>
+        <p>7005368896</p>
+        <br>
+        <h4>Email:</h4>
+        <p>teestakoch555@gmail.com</p>
+        <br>
+        <h4>Date Of Birth:</h4>
+        <p>August 29, 1999</p>
+      </div>
+  </div>
+  </div>
+
+    <div class="ed w3-center w3-padding-16 w3-container w3-white w3-margin-top" id="education">
+<h4 style="font-weight: 700;">EDUCATION</h4>
+<table class="w3-table w3-striped w3-border w3-centered w3-margin-top">
+  <tr>
+    <td>2016-2020
+      <br>
+      Bachelor's Degree
+    </td>
+    <td>National Institute Of Technology, Meghalaya</td>
+  </tr>
+  <tr>
+    <td>2016
+      <br>
+      Senior Secondary Examination
+    </td>
+    <td>Don Bosco College, Tura, Meghalaya</td>
+  </tr>
+  <tr>
+    <td>2014
+      <br>
+      Secondary Examination
+    </td>
+    <td>Embee Rosebud Secondary School, Tura, Meghalaya</td>
+  </tr>
+  </table>
+    </div>
+
+    <div class="skill w3-center w3-text-white" id="skills">
+      <div class=" stitle w3-padding-32">
+    <h4 style="font-weight: 700; ">SKILLS</h4>
+        <ul class="w3-border-top">
+          <br>
+          <li>Languages : C, C++, HTML, CSS, SQL</li>
+          <li>Frameworks : Angular 7</li>
+          <li>Operating Systems : Unix/Linux , Windows</li>
+          <li>Database Management : Oracle</li>
+          <li>Technologies : Git</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="prjct w3-white" id="projects">
+      <div class=" w3-padding-32">
+        <h4 style="font-weight: 700; text-align: center;">PROJECTS</h4>
+        <div class="w3-border-top">
+          <ol>
+            <li>Health and Wellness Application</li>
+            <li>Travel Agency Project</li>
+            <li>Cloud Based Application & Website Development For Wireless Sensor Network</li>
+          </ol>
+        </div>
+    </div>
+
+    <div class="social w3-center w3-padding-16">
+      <h4>I'd love to hear from you</h4>
+<a href="https://www.linkedin.com/in/teesta-koch-92b628157/">
+  <i class="fa fa-linkedin"></i></a>
+  </div>
+
+  <div class="w3-container footer w3-padding-16 w3-center">
+<h4 style="font-style: italic; font-size: inherit;">&copy; 2020, Teesta Koch</h4>
+  </div>
+</body>
+</html> 
